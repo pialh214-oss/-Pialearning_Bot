@@ -818,12 +818,9 @@
             }
         }
 
-        // Generate referral link
-        function generateReferralLink() {
-            const currentUrl = window.location.href.split('?')[0];
-            const referralLink = `${currentUrl}?ref=${userId}`;
-            document.getElementById('referral-link').value = referralLink;
-        }
+        const BOT_NAME = "PiaLearning_Bot"; 
+const referralLink = `https://t.me/${BOT_NAME}?start=${userId}`;
+document.getElementById('referral-link').value = referralLink;
 
         // Copy referral link to clipboard
         function copyReferralLink() {
@@ -1156,6 +1153,7 @@
     </script>
 </body>
 </html>
+
 
 
 
