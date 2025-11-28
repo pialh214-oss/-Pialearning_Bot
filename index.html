@@ -586,7 +586,7 @@
             <div class="rate-info">
                 <p><i class="fas fa-ad"></i> প্রতি বিজ্ঞাপন = ২ টাকা</p>
                 <p><i class="fas fa-money-bill-wave"></i> ন্যূনতম উত্তোলন: ৩০ টাকা</p>
-                <p><i class="fas fa-gift"></i> রেফারেল বোনাস: ৫ টাকা প্রতি ব্যবহারকারী।কিছু টেকনিক্যাল সমস্যার কারণে রেফার সিস্টেম টি বন্ধ আছে</p>
+                <p><i class="fas fa-gift"></i> রেফারেল বোনাস: ৫ টাকা প্রতি ব্যবহারকারী।</p>
             </div>
         </div>
         
@@ -631,7 +631,7 @@
             
             <div class="stat-card">
                 <h3>মোট আয়</h3>
-                <p id="total-earned-withdraw">0.00 <small>টাকা</small></p>
+                <p id="total-earned-withdraw">৩০ <small>টাকা</small></p>
             </div>
             
             <div class="withdraw-section" id="withdraw-section">
@@ -645,7 +645,7 @@
                         <option value="" disabled selected>পেমেন্ট মাধ্যম নির্বাচন করুন</option>
                         <option value="bkash">bKash</option>
                         <option value="nagad">Nagad</option>
-                        <option value="rocket">binance</option>
+                        <option value="rocket">rocket</option>
                     </select>
                 </div>
                 <div class="form-group">
@@ -722,7 +722,7 @@
     <script>
         // Constants
         const POINTS_PER_AD = 2.00; // প্রতি বিজ্ঞাপনে ২ টাকা
-        const MIN_WITHDRAW_TAKA = 20; // ন্যূনতম উত্তোলন ৩০ টাকা
+        const MIN_WITHDRAW_TAKA = 30; // ন্যূনতম উত্তোলন ৩০ টাকা
         const REFERRAL_BONUS = 5.00; // রেফারেল বোনাস ৫ টাকা
         
         // Telegram Bot Configuration - এখানে আপনার বটের তথ্য দিন
@@ -818,7 +818,7 @@
             }
         }
 
-        const BOT_NAME = "PiaLearning_Bot"; 
+        const BOT_NAME = "TakarBank_Bot"; 
 const referralLink = `https://t.me/${BOT_NAME}?start=${userId}`;
 document.getElementById('referral-link').value = referralLink;
 
@@ -1153,6 +1153,7 @@ document.getElementById('referral-link').value = referralLink;
     </script>
 </body>
 </html>
+
 
 
 
